@@ -8,7 +8,7 @@ import cucumber.api.java.en.When;
 
 public class MavenStepDefinition {
 	
-
+// Git Check
 @Given("^I want to check given$")
 public void I_want_to_check_given() throws Throwable {
 	
@@ -52,13 +52,11 @@ public void I_want_to_check_given_in_module() throws Throwable {
 	System.out.println("I am in Given of module");
 
 }
-    
-
+   
 @When("^I check when in module$")
 public void I_check_when_in_module() throws Throwable {
 	
-	System.out.println("I am in When of module");
-  
+	System.out.println("I am in When of module");  
 }
 
 @Then("^it should check then in module$")
